@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pythonprojectsetup"
+version = "0.1  .0"
+description = ""
+authors = ["Yangfan XIANG <yangfan.xiang@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "^1.23.2"
+
+
+[tool.poetry.group.dev.dependencies]
+pep8 = "^1.7.1"
+pytest = "^7.1.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
